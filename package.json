@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://Ch1efEag.github.io/portfolio_nov_23",
+  "homepage": "https://Ch1efEag.github.io/portfolio_nov_23",
   "name": "harsh_oc_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.0.0"
   }
 }
