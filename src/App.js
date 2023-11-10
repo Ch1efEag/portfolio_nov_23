@@ -11,11 +11,10 @@ import Contact from './pages/contact/Contact';
 function App() {
   return(
     <BrowserRouter>
-      <Home/>
       <NavBar/>
       <Themes/>
       <Routes>
-        <Route index element = {<Home/>} exact/>
+        <Route index element = {<Home/>} />
         <Route path ="about" element = {<About/>} />
         <Route path ="portfolio" element = {<Portfolio/>} />
         <Route path ="contact" element = {<Contact/>} />
