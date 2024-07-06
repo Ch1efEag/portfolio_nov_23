@@ -16,8 +16,8 @@ import {SiMysql, SiPostgresql, SiTailwindcss} from 'react-icons/si'
 import {BiLogoMongodb, BiChip} from 'react-icons/bi'
 import {LuBrainCircuit} from 'react-icons/lu'
 import {BsFillAwardFill} from 'react-icons/bs'
-
-  
+import { FaAngular } from 'react-icons/fa';
+import { SiTypescript } from 'react-icons/si';
 import Work1 from './assets/project-1.jpeg';
 import Work2 from './assets/project-2.jpg';
 import Work3 from './assets/project-3.jpeg';
@@ -83,7 +83,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '22 Years',
+    description: '23 Years',
   },
 
   {
@@ -112,14 +112,14 @@ export const personalInfo = [
 
   {
     id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: 'Languages : ',
+    description: 'Hindi, English',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'harshgr441@gmail.com',
+    description: 'gaurharsh012@gmail.com',
   },
 
   {
@@ -134,15 +134,15 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '2+',
-    title: 'Years of <br /> Experience',
+    no: 'Experience',
+    title: 'Full Stack Developer Intern[Exeevo-Bangalore] <br/> Jan 8 2024 - June 28 2024',
   },
 
-  {
-    id: 2,
-    no: '5+',
-    title: 'Completed <br /> Projects',
-  },
+  // {
+  //   id: 2,
+  //   no: '5+',
+  //   title: 'Completed <br /> Projects',
+  // },
 
   // {
   //   id: 3,
@@ -162,27 +162,26 @@ export const resume = [
     id: 1,
     category: 'achievement',
     icon: <BsFillAwardFill />,
-    year: '2023',
-    title: 'Competetive Programing <span> Coding Ninjas </span>',
-    desc: ' Ranked in the top 250 among 16,534 participants in the contest named CNSAT.',
+    // year: '201',
+    title: 'Technothlon <span> IIT Guwahati </span>',
+    desc: 'Secured All India 2nd rank winning a trip to ISRO, Bangalore.',
   },
-
   {
     id: 2,
     category: 'achievement',
     icon: <BsFillAwardFill />,
-    year: '2022 - PRESENT',
-    title: 'DSA and Algorithm <span> LeetCode </span>',
-    desc: 'Solved 500+ questions in which 300+ are on Leetcode itself and other 200 on different platforms like gfg, codeforces etc',
+    year: 'Current',
+    title: 'Competetive Programing/DSA<span>(700+ problems solved)</span>',
+    desc: 'Codeforces(1323), Codechef(1688), Leetcode(1622).',
   },
 
   {
     id: 3,
     category: 'achievement',
     icon: <BsFillAwardFill />,
-    year: '2013 - 2018',
-    title: 'Technothlon <span> IIT Guwahati </span>',
-    desc: 'Secured All India 2nd rank winning a trip to ISRO, Bangalore.',
+    year: '2022 - PRESENT',
+    title: 'Hackathons/Coding competitions',
+    desc: 'Flipkart GRiD 5.0- Information Security Challenge:: Top 250 among 0.5 million,Algo University Graph Educational Contest : AIR 3,Codechef Starters 119 :: Global Rank 134 out of 25651 participants',
   },
 
   {
@@ -191,7 +190,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: '2020 - 2024',
     title: 'Indian Institute of Information Technology Guwahati <span> Btech CSE </span>',
-    desc: '8.04',
+    desc: '7.81/10',
   },
 
   {
@@ -200,7 +199,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: '2018-2019',
     title: 'Modern Delhi Public School, Sector 87, Faridabad  <span> 12th Standard </span>',
-    desc: '79.2',
+    desc: '79.2/100',
   },
 
   {
@@ -209,7 +208,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: '2016-2017',
     title: 'Modern Delhi Public School, Sector 87, Faridabad <span> 10th Standard </span>',
-    desc: '9.6',
+    desc: '9.6/10',
   },
 ];
 
@@ -272,16 +271,16 @@ export const skills = [
 
   {
     id: 9,
-    title: 'ML',
+    title: 'TypeScript',
     percentage: '30',
-    url: <LuBrainCircuit className='skills-icons'/>
+    url: <SiTypescript className='skills-icons'/>
   },
 
   {
     id: 10,
-    title: 'AI',
+    title: 'Angular',
     percentage:'100',
-    url: <BiChip className='skills-icons'/>
+    url: <FaAngular className='skills-icons'/>
   },
 
   {
