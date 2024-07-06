@@ -10,7 +10,7 @@ import Contact from './pages/contact/Contact';
 
 function App() {
   return(
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio_nov_23">
       <NavBar/>
       <Themes/>
       <Routes>
