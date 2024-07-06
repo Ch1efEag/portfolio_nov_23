@@ -171,7 +171,7 @@ export const resume = [
     category: 'achievement',
     icon: <BsFillAwardFill />,
     year: 'Current',
-    title: 'Competitive Programing/DSA<span>(700+ problems solved)</span>',
+    title: 'Competitive Programming/DSA<span>(700+ problems solved)</span>',
     desc: 'Codeforces(1323), Codechef(1688), Leetcode(1622).',
   },
 
