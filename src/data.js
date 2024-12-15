@@ -135,8 +135,10 @@ export const stats = [
   {
     id: 1,
     no: 'Experience',
-    title: 'Full Stack Developer Intern[Exeevo-Bangalore] <br/> Jan 8 2024 - June 28 2024',
+    title: `Senior Analyst [Data-Engineer Capgemini] <br/> Sept 3 2024 - Current <br/> <br/>
+    Full Stack Developer Intern [Exeevo-Bangalore] <br/> Jan 8 2024 - June 28 2024`,
   },
+
 
   // {
   //   id: 2,
@@ -171,8 +173,8 @@ export const resume = [
     category: 'achievement',
     icon: <BsFillAwardFill />,
     year: 'Current',
-    title: 'Competitive Programming/DSA<span>(700+ problems solved)</span>',
-    desc: 'Codeforces(1323), Codechef(1688), Leetcode(1622).',
+    title: 'Competitive Programming/DSA<span>(900+ problems solved)</span>',
+    desc: 'Codeforces(1323), Codechef(1768), Leetcode(1622).',
   },
 
   {

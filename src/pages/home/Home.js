@@ -12,11 +12,11 @@ const home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Harsh Gaur.</span> Web Developer
+            <span>I'm Harsh Gaur.</span> Full-Stack Developer/ Data-Engineer
           </h1>
 
           <p className="home__description">
-          I am proficient in front-end, back-end and machine learning. Give me a task, and consider it done.
+          I am proficient in front-end, back-end and data-engineering concepts(ETL, Pyspark, Azure Databricks, Azure Data Factory). Give me a task, and consider it done.
           </p>
 
           <Link to='/about' className='button'>
